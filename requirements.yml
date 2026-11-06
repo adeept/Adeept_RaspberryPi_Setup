@@ -1,0 +1,35 @@
+
+apt:
+  - i2c-tools
+  - python3-smbus
+  - python3-gpiozero
+  - python3-picamera2
+  - python3-opencv
+  - opencv-data
+  - alsa-utils
+  - pulseaudio
+
+pip:
+  - Adafruit-Blinka-Raspberry-Pi-PWM
+  - adafruit-circuitpython-motor
+  - adafruit-circuitpython-pca9685
+  - adafruit-circuitpython-busdevice
+  - adafruit-circuitpython-ssd1306
+  - adafruit-circuitpython-ads7830
+  - pillow
+  - luma.oled
+  - mpu6050-raspberrypi
+  - spidev
+  - flask_cors
+  - flask
+  - numpy
+  - imutils
+  - pyzmq
+  - pybase64
+  - psutil
+  - websockets
+  - sherpa-onnx
+  - sherpa-onnx-bin
+
+pip_rpi5:
+  - Adafruit-Blinka-Raspberry-Pi5-Neopixel
